@@ -1,0 +1,8 @@
+== Lab 1 - Electronic Publishing Overview
+
+This lab was created to demonstrate the way in which Hassium Labs
+content is produced and published.
+
+=== Source Code
+
+All of the source for this lab is available from the https://github.com/hassiumlabs/lab-001-electronic-publishing[Hassium Labs GitHub Organization^]

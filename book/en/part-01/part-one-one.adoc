@@ -1,0 +1,15 @@
+== Part 1.1 - Components
+
+The components involved in the publishing process are the content which
+is marked up using the simple but powerful http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc]
+and the https://toolchain.gitbook.com/[Gitbook] toolchain of publishing libraries.
+To further simplify the collection and installation of the toolchain components I've
+encapsulated them all into a Docker image which is then fronted with a script to
+run the various commands to keep the tools that have to be locally installed
+to a minium.
+
+=== Locally Installed
+
+* Git
+* Docker
+* Make
