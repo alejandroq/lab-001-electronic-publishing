@@ -7,7 +7,7 @@ BOOK_NAME := lab-001-electronic-publishing
 
 # Container meta-info
 BIN := gitbook
-REGISTRY ?= spohnan
+REGISTRY ?= hassiumlabs
 IMAGE := $(REGISTRY)/$(BIN)
 CONTAINER := $(REGISTRY)-$(BIN)
 
