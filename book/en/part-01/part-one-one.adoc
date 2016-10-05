@@ -6,10 +6,13 @@ and the https://toolchain.gitbook.com/[Gitbook] toolchain of publishing librarie
 To further simplify the collection and installation of the toolchain components I've
 encapsulated them all into a Docker image which is then fronted with a script to
 run the various commands to keep the tools that have to be locally installed
-to a minium.
+to a minimum.
 
 === Locally Installed
 
-* Git
-* Docker
+The following tools should be installed on your local system. The publishing toolchain has
+been installed within a Docker container and orchestrated with a Makefile.
+
+* https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[Git]
+* https://docs.docker.com/engine/installation/[Docker]
 * Make
