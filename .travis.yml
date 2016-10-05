@@ -9,10 +9,8 @@ services:
   - docker
 script:
   - make
-before_install:
-  - pip install --user awscli
-  - export PATH=$PATH:$HOME/.local/bin
 after_success:
+  - pip install --user awscli; export PATH=$PATH:$HOME/.local/bin
   - aws s3 sync _book/ s3://hassiumlabs-test.com/labs/lab-001-electronic-publishing/
 notifications:
   slack:
