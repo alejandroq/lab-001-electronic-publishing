@@ -2,6 +2,7 @@ language: bash
 branches:
   only:
     - master
+    - test
 services:
   - docker
 script:
