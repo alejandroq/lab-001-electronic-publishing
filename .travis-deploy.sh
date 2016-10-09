@@ -8,9 +8,9 @@
 pip install --user awscli; export PATH=$PATH:$HOME/.local/bin
 
 if [ "$TRAVIS_BRANCH" == "master" ]; then
-  aws s3 sync public/ s3://hassiumlabs-website/production/labs/lab-001-electronic-publishing/ --delete
+  aws s3 sync _book/ s3://hassiumlabs-website/production/labs/lab-001-electronic-publishing/ --delete
 fi
 
 if [ "$TRAVIS_BRANCH" == "test" ]; then
-  aws s3 sync public/ s3://hassiumlabs-website/test/labs/lab-001-electronic-publishing/ --delete
+  aws s3 sync _book/ s3://hassiumlabs-website/test/labs/lab-001-electronic-publishing/ --delete
 fi
