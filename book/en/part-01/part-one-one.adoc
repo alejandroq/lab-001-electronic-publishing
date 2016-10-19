@@ -2,7 +2,7 @@
 
 The components involved in the publishing process are the content which
 is marked up using the simple but powerful http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc]
-and the https://toolchain.gitbook.com/[Gitbook] toolchain of publishing libraries.
+and the https://toolchain.gitbook.com[Gitbook] toolchain of publishing libraries.
 To further simplify the collection and installation of the toolchain components I've
 encapsulated them all into a Docker image which is then fronted with a script to
 run the various commands to keep the tools that have to be locally installed
@@ -13,6 +13,15 @@ to a minimum.
 * Make - Wraps docker commands
 * https://git-scm.com[Git^] - Source Control
 * https://www.docker.com/[Docker^] - Toolchains installed on containers
+
+=== Publishing toolchains
+
+We use https://toolchain.gitbook.com[Gitbook] to publish the labs and https://gohugo.io[Hugo]
+to publish the website. Both of these can be installed locally but for ease of integration with
+continuous integration services we've packed them as https://hub.docker.com/u/hassiumlabs[docker images^]
+
+* https://hub.docker.com/r/hassiumlabs/gitbook/~/dockerfile[GitBook] - Lab content published as HTML, PDF, MOBI and EPUB
+* https://hub.docker.com/r/hassiumlabs/hugo/~/dockerfile[Hugo] - Website publishing
 
 === Services
 

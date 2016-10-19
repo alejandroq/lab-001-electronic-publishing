@@ -1,3 +1,9 @@
 = Part 2.1 - Markup Content
 
-This is the first section of part two
+The website content uses the lightweight markup language https://en.wikipedia.org/wiki/Markdown[Markdown] and
+the labs use the slightly more complex http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc] to be able
+to do some more advanced text formatting.
+
+Regardless of the language used the ability to focus on the content rather than the formatting
+greatly accelerates the writing process. Once the content has been annotated it can be tranformed into
+many different final products.
