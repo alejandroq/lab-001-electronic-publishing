@@ -10,9 +10,16 @@ to a minimum.
 
 === Locally Installed
 
-The following tools should be installed on your local system. The publishing toolchain has
-been installed within a Docker container and orchestrated with a Makefile.
+* Make - Wraps docker commands
+* https://git-scm.com[Git^] - Source Control
+* https://www.docker.com/[Docker^] - Toolchains installed on containers
 
-* https://git-scm.com/book/en/v2/Getting-Started-Installing-Git[Git]
-* https://docs.docker.com/engine/installation/[Docker]
-* Make
+=== Services
+
+* https://github.com/hassiumlabs[GitHub^] - Git Repos
+* https://hub.docker.com/u/hassiumlabs[Docker Hub^] - Docker Repos
+* https://travis-ci.org/hassiumlabs[Travis CI^] - Build service
+* https://aws.amazon.com[AWS^] - Infrastructure
+** https://aws.amazon.com/s3[S3 - Simple Storage Service^] - Content Storage
+** https://aws.amazon.com/cloudfront[CloudFront^] - Content Distribution
+** https://aws.amazon.com/route53[Route 53] - DNS
