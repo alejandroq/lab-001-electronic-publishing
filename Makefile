@@ -36,21 +36,24 @@ bookdir:
 	@mkdir -p _book
 
 clean:
-	@rm -fr _book
+	@rm -fr _book node_modules
 
 init: stop
 	$(GITBOOK_CMD) init
 
-html:
+install:
+	$(GITBOOK_CMD) install
+
+html: install
 	$(GITBOOK_CMD) build
 
-epub: bookdir
+epub: bookdir install
 	$(GITBOOK_CMD) epub . ./_book/$(BOOK_NAME).epub
 
-mobi: bookdir
+mobi: bookdir install
 	$(GITBOOK_CMD) mobi . ./_book/$(BOOK_NAME).mobi
 
-pdf: bookdir
+pdf: bookdir install
 	$(GITBOOK_CMD) pdf . ./_book/$(BOOK_NAME).pdf
 
 serve:
@@ -61,6 +64,9 @@ status:
 
 stop:
 	@docker kill $(shell docker ps --filter=\"name=$(CONTAINER)\" -q) > /dev/null 2>&1 || true
+
+version:
+	$(GITBOOK_CMD) version
 
 # Gitbook Theme Actions
 # For use with themes such as https://github.com/GitbookIO/theme-default

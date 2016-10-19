@@ -1,4 +1,6 @@
 {
+    "gitbook": ">= 3.2.2",
     "root": "./book",
-    "author": "Andy Spohn @ Hassium Labs"
+    "author": "Andy Spohn @ Hassium Labs",
+    "plugins": [ "theme-hassiumlabs"]
 }
