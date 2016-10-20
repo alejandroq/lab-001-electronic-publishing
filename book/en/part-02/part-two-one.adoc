@@ -2,9 +2,8 @@
 
 The website content uses https://en.wikipedia.org/wiki/Markdown[Markdown] to annotate content and
 the labs use the slightly more complex http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc] to be able
-to do some more advanced text formatting.
+to do some more advanced text formatting. Regardless of the language used the ability to focus on content rather than
+the formatting greatly accelerates the writing process.
 
-Regardless of the language used the ability to focus on content rather than the formatting
-greatly accelerates the writing process. Once content has been annotated it can be tranformed into
-many different final products. Using the GitBook toolchain we can produce HTML, PDF, MOBI and EPUB documents
-from a the same source content by applying different style sheets.
+Once the generation and markup of content has been completed we save the finished source files to a local
+https://git-scm.com[Git^] respository and when ready to publish push the local changes to a shared repository.

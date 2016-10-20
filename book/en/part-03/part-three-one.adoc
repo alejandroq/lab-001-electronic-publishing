@@ -1,0 +1,6 @@
+= Part 3.1 - Output Formats
+
+Once content has been annotated it can be transformed into
+many different final products. Using the https://toolchain.gitbook.com[Gitbook] toolchain we can produce
+HTML, PDF, MOBI and EPUB documents from a the same source content by applying different style sheets.
+
