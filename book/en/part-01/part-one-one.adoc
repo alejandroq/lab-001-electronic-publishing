@@ -1,3 +1,5 @@
+== Part One - Setup
+
 == Part 1.1 - Components
 
 The components involved in the publishing process are the content which
@@ -12,7 +14,7 @@ to a minimum.
 
 * Make - Wraps docker commands
 * https://git-scm.com[Git^] - Source Control
-* https://www.docker.com/[Docker^] - Toolchains installed on containers
+* https://www.docker.com/[Docker^] - Text processing toolchains installed on containers
 
 === Publishing toolchains
 
