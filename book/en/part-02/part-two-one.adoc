@@ -1,4 +1,4 @@
-= Part 2.1 - Markup Content
+== Part 2.1 - Markup Content
 
 The website uses https://en.wikipedia.org/wiki/Markdown[Markdown] to annotate content and
 the labs use the slightly more complex http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc] to be able
