@@ -5,4 +5,6 @@
 * link:part-02/README.adoc[Part 2 - Content Creation]
 ** link:part-02/part-two-one.adoc[Part 2.1 - Markup Content]
 * link:part-03/README.adoc[Part 3 - Compilation]
+** link:part-03/part-three-one.adoc[Part 3.1 - Output Formats]
 * link:part-04/README.adoc[Part 4 - Publishing]
+** link:part-04/part-four-one.adoc[Part 4.1 - Serving Content from AWS]

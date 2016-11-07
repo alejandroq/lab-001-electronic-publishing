@@ -1,10 +1,6 @@
 = Part 2.1 - Markup Content
 
-The website content uses https://en.wikipedia.org/wiki/Markdown[Markdown] to annotate content and
+The website uses https://en.wikipedia.org/wiki/Markdown[Markdown] to annotate content and
 the labs use the slightly more complex http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc] to be able
 to do some more advanced text formatting. Regardless of the language used the ability to focus on content rather than
 the formatting greatly accelerates the writing process.
-
-Once the markup of content has been completed the finished source files are saved to a local
-https://git-scm.com[Git^] respository and when ready to publish pushed to a shared repository which triggers the build
-of the content into the various formats and the publishing to the CDN.
