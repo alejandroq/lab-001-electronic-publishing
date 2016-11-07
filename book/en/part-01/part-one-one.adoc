@@ -16,9 +16,9 @@ to a minimum.
 
 === Publishing toolchains
 
-We use https://toolchain.gitbook.com[Gitbook] to publish the labs and https://gohugo.io[Hugo]
+https://toolchain.gitbook.com[Gitbook] is used to publish the labs and https://gohugo.io[Hugo]
 to publish the website. Both of these can be installed locally but for ease of integration with
-continuous integration services we've packed them as https://hub.docker.com/u/hassiumlabs[docker images^]
+continuous integration services they've been installed into https://hub.docker.com/u/hassiumlabs[docker images^]
 
 * https://hub.docker.com/r/hassiumlabs/gitbook/~/dockerfile[GitBook] - Lab content published as HTML, PDF, MOBI and EPUB
 * https://hub.docker.com/r/hassiumlabs/hugo/~/dockerfile[Hugo] - Website publishing

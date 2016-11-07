@@ -5,5 +5,6 @@ the labs use the slightly more complex http://asciidoctor.org/docs/asciidoc-writ
 to do some more advanced text formatting. Regardless of the language used the ability to focus on content rather than
 the formatting greatly accelerates the writing process.
 
-Once the generation and markup of content has been completed we save the finished source files to a local
-https://git-scm.com[Git^] respository and when ready to publish push the local changes to a shared repository.
+Once the markup of content has been completed the finished source files are saved to a local
+https://git-scm.com[Git^] respository and when ready to publish pushed to a shared repository which triggers the build
+of the content into the various formats and the publishing to the CDN.
