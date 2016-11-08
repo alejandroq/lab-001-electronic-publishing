@@ -42,7 +42,7 @@ init: stop
 	$(GITBOOK_CMD) init
 
 install:
-	$(GITBOOK_CMD) install
+	$(GITBOOK_CMD) install > /dev/null 2>&1
 
 html: install
 	$(GITBOOK_CMD) build
@@ -56,7 +56,7 @@ mobi: bookdir install
 pdf: bookdir install
 	$(GITBOOK_CMD) pdf . ./_book/$(BOOK_NAME).pdf
 
-serve:
+serve: bookdir install
 	$(SERVE_CMD) serve > /dev/null 2>&1 &
 
 status:
