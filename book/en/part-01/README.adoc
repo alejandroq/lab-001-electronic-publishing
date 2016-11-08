@@ -1,1 +1,3 @@
 == Part One - Setup
+
+The first step in the publishing process is to gather the needed tools to process the content to be published.

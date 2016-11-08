@@ -1,1 +1,3 @@
 == Part Two - Content Creation
+
+With the tools installed we're ready to create and annotate the content for publishing.

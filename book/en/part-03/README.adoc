@@ -1,1 +1,4 @@
 == Part Three - Compilation
+
+The payoff for going through the markup process is that the tools can compile the content
+into many different types of output formats by applying different styles.

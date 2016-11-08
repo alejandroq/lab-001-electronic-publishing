@@ -3,4 +3,6 @@
 The website uses https://en.wikipedia.org/wiki/Markdown[Markdown] to annotate content and
 the labs use the slightly more complex http://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc] to be able
 to do some more advanced text formatting. Regardless of the language used the ability to focus on content rather than
-the formatting greatly accelerates the writing process.
+the formatting greatly accelerates the writing process. The links above show the markup capabilities for each of the
+languages, Markdown has the advantage of being incredibly simple to learn but has limited capabilities.
+AsciiDoc can be used in a simplistic way to do basic formatting but has advanced capabilities when needed.
