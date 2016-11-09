@@ -78,7 +78,12 @@ previewed more rapidly.
 === Route53 DNS
 
 Both the production and test CloudFront distributions have their own DNS records which in Route53
-are set to A and AAAA (IPV6) alias records pointing to the CloudFront distribution names.
+are set to A and AAAA (IPV6) alias records pointing to the CloudFront distribution names. Both the test and
+production content is stored in the same S3 bucket and synchronization is done based on the git branch used.
+The https://github.com/hassiumlabs/lab-001-electronic-publishing/blob/master/.travis-deploy.sh[travis-deploy]
+script shown above is the mechanism that examines the branch being pushed to the GitHub repo
+and uses the IAM service user credentials saved within the https://travis-ci.org/hassiumlabs/lab-001-electronic-publishing[Travis CI job]
+to push the content to the appropriate location within the S3 bucket.
 
 === Data Flow
 
