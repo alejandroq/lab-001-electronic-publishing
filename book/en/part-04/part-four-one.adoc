@@ -80,3 +80,6 @@ previewed more rapidly.
 Both the production and test CloudFront distributions have their own DNS records which in Route53
 are set to A and AAAA (IPV6) alias records pointing to the CloudFront distribution names.
 
+=== Data Flow
+
+image::../images/data-flow.png[Data Flow]
